@@ -6,7 +6,4 @@ def countdown
 end
   puts "HAPPY NEW YEAR!"
   
-  def countdown_with_sleep
-    time = Time.now
-    sleep 2.seconds until Time.now > time + 10.seconds
-  end  
+ 
